@@ -1,0 +1,62 @@
+html{
+    overflow-y: hidden;
+}
+
+.main-container {
+    /* height: calc(100vh - var(--size-header-height)); */
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.iframe {
+    width: 1200px;
+    height: 70%;
+}
+
+@media (max-width: 1536px) {
+    .iframe{
+        width: 1229px;
+    }
+}
+
+@media (max-width: 1229px) {
+    .iframe{
+        width: 984px;
+    }
+}
+
+@media (max-width: 984px) {
+    .iframe{
+        width: 787px;
+    }
+}
+
+@media (max-width: 787px) {
+    .iframe{
+        width: 630px;
+    }
+}
+
+@media (max-width: 630px) {
+    .iframe{
+        width: 504px;
+    }
+}
+
+@media (max-width: 504px) {
+    .iframe{
+        width: 403px;
+    }
+}
+
+@media (max-width: 403px) {
+    .iframe{
+        width: 322px;
+    }
+}
+
+@media (max-width: 322px) {
+    .iframe{
+        width: 258px;
+    }
+}
