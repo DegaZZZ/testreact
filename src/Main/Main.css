@@ -5,11 +5,12 @@ html{
 .main-container {
     /* height: calc(100vh - var(--size-header-height)); */
     height: 100vh;
+    width: 100vw;
     padding-top: 30px;
 }
 
 .iframe {
-    width: 1200px;
+    width: 100%;
     height: 70%;
 }
 
