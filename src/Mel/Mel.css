@@ -1,0 +1,85 @@
+.broad-container {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5vh;
+    background: #e5e5e5;
+}
+
+.iframebroad {
+    width: 60vw;
+    height: 70vh;
+    border: 2px solid black;
+}
+
+.iframechat {
+    width: 350px;
+    height: 70vh;
+}
+
+@media screen and (max-width: 940px) {
+
+    .wrap{
+        margin: 0 auto;
+    }
+
+    .text-size{
+        font-size: 18px;
+        font-family: "Font Name", serif;
+        color: black;
+    }
+
+    .broad-container {
+        height: 100vh;
+        width: 100vw;
+        padding-top: 5vh;
+        background: #e5e5e5;
+        flex-direction: column;
+    }
+
+    .iframebroad {
+        width: 80vw;
+        height: 50vh;
+        border: 2px solid black;
+    }
+
+    .iframechat {
+        width: 80vw;
+        height: 50vh;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .wrap{
+        margin: 0 auto;
+    }
+
+    .text-size{
+        font-size: 18px;
+        font-family: "Font Name", serif;
+        color: black;
+    }
+
+    .broad-container {
+        height: 100vh;
+        width: 100vw;
+        padding-top: 5vh;
+        background: #e5e5e5;
+        flex-direction: column;
+    }
+
+    .iframebroad {
+        width: 80vw;
+        height: 30vh;
+        border: 2px solid black;
+    }
+
+    .iframechat {
+        width: 80vw;
+        height: 70vh;
+        margin: 0 auto;
+    }
+
+}

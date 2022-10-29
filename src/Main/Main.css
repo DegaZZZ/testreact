@@ -1,17 +1,35 @@
-html{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
 .main-container {
-    /* height: calc(100vh - var(--size-header-height)); */
     height: 100vh;
     width: 100vw;
     padding-top: 5vh;
-    background: #282c34;
+    background: #e5e5e5;
 }
 
 .iframe {
     width: 70vw;
     height: 70vh;
+    border: 2px solid black;
 }
+
+@media screen and (max-width: 940px) {
+
+    .iframe {
+        width: 80vw;
+        height: 50vh;
+        border: 2px solid black;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .iframe {
+        width: 80vw;
+        height: 30vh;
+        border: 2px solid black;
+    }
+
+}
+
+
+
+

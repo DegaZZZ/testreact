@@ -1,10 +1,10 @@
-import './Main.css'
+import './Mel.css'
 
-function Main(props: any) {
+function Mel(props: any) {
     return (
-         <div className="container-fluid main-container d-flex justify-content-center overflow-hidden px-0">
-             <div className="player-wrapper wrap">
-                <iframe className="iframe"
+        <div className="container-fluid broad-container d-flex justify-content-center overflow-hidden px-0">
+            <div className="player-wrapper wrap" id="split-player-formula">
+                <iframe className="iframebroad"
                         src={props.link}
                         allow="autoplay; encrypted-media; fullscreen; picture-in-picture">
                 </iframe>
@@ -14,8 +14,11 @@ function Main(props: any) {
                     <a className="nav-link ms-2" href="https://t.me/f1tv_free">Telegram</a>
                 </div>
             </div>
+            <iframe className="iframechat"
+                    src="https://www.twitch.tv/embed/jesusAVGN/chat?parent=localhost">
+            </iframe>
         </div>
     )
 }
 
-export default Main;
+export default Mel;
