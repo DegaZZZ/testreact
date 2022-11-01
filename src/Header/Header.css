@@ -23,5 +23,5 @@
 @font-face {
     font-family: 'Font Name';
     src: local('Font Name'), local('Font-Name'),
-    url("/src/Fonts/Formula1-Regular.otf");
+    url("/src/Fonts/Formula1-Regular.ttf");
 }
